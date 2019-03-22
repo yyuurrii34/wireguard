@@ -1,14 +1,14 @@
 #!/bin/bash
 
 #判断系统
-if [ ! -e '/etc/redhat-release' ]; then
-echo "仅支持centos7"
-exit
-fi
-if  [ -n "$(grep ' 6\.' /etc/redhat-release)" ] ;then
-echo "仅支持centos7"
-exit
-fi
+#if [ ! -e '/etc/redhat-release' ]; then
+#echo "仅支持centos7"
+#exit
+#fi
+#if  [ -n "$(grep ' 6\.' /etc/redhat-release)" ] ;then
+#echo "仅支持centos7"
+#exit
+#fi
 
 
 
